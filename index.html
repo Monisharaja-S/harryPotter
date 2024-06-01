@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter Characters</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Harry Potter Characters</h1>
+       
+          <div class="logo-container">
+            <img src="https://w7.pngwing.com/pngs/104/683/png-transparent-hogwarts-harry-potter-crest-gryffindor-ravenclaw-house-harry-potter-red-green-blue-and-yellow-animal-logo-illustration-shield-magic-helga-hufflepuff.png" alt="Hogwarts Logo">
+        </div>
+        <nav>
+        <ul id="house-nav">
+                <li><a href="#" data-house="All">All</a></li>
+                <li><a href="#" data-house="Gryffindor">Gryffindor</a></li>
+                <li><a href="#" data-house="Hufflepuff">Hufflepuff</a></li>
+                <li><a href="#" data-house="Ravenclaw">Ravenclaw</a></li>
+                <li><a href="#" data-house="Slytherin">Slytherin</a></li>
+            </ul>
+        </nav>
+        <input type="text" id="search-bar" placeholder="Search for a character...">
+    </header>
+    <main>
+        <div id="character-container" class="character-container"></div>
+        <div id="pagination" class="pagination"></div>
+    </main>
+    <footer>
+        <p>Data fetched from the Harry Potter API</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
